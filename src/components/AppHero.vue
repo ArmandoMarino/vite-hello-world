@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div class="container my-5 d-flex justify-content-center">
         <img class="img-fluid" :src="buildImagePath(image)" alt="">
     </div>
 </template>
