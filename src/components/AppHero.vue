@@ -16,9 +16,13 @@ export default {
 </script>
 
 <template>
-    <img :src="buildImagePath(image)" alt="">
+    <div class="container">
+        <img class="img-fluid" :src="buildImagePath(image)" alt="">
+    </div>
 </template>
 
-<style>
-
+<style scoped>
+.container img {
+    width: 800px;
+}
 </style>

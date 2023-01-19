@@ -10,7 +10,9 @@ export default {
 </script>
 
 <template>
-    <h1>{{ title }}</h1>
+    <div>
+        <h1>{{ title }}</h1>
+    </div>
 </template>
 
 <style scoped>
