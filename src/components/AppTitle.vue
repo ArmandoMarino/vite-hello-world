@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="text-center">
         <h1>{{ title }}</h1>
     </div>
 </template>
